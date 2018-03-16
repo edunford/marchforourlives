@@ -32,7 +32,7 @@ dat =  gather_marches(c(20010, 83333,98101,77001))
 Finally, the location of all scheduled locations can be retrieved with the following:
 
 ```
-all_planned_protests <- extract_all()
+all_planned_protests <- march_info_all()
 all_planned_protests
 ```
 
