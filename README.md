@@ -22,18 +22,19 @@ extract_march(20010)
 ```
 
 
-However, the API pings the existing website in ways that can adversely impact it, so the following function offers a time pad between functions if multiple zipcodes need to be retrieved. 
+However, the API pings the existing website in ways that can adversely impact it, so the following function offers a time pad between requests if multiple zipcodes need to be retrieved. 
 
 ```
 dat =  gather_marches(c(20010, 83333,98101,77001))
 ```
 
 
-Finally, the location of all scheduled locations can be retrieved with the following:
+Finally, to retrieve the locations of all scheduled event worldwide, use the following:
 
 ```
 all_planned_protests <- march_info_all()
 all_planned_protests
 ```
 
-Now, go out and protest! ...at a location near you.  
+Now, go out and protest! ...at a location near you. If you're coming across this after March 24, 2018, well, catch the next one!
+
