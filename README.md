@@ -7,12 +7,6 @@ For protest information, please go to the organizers site [here](https://event.m
 devtools::install_github("edunford/marchforourlives")
 ```
 
-Load package onto your system.
-
-```
-require(marchforourlives)
-```
-
 # Usage
 
 The package offers a quick API to extract location information. Specifically, for a location within 50 miles of a particular zip code. 
