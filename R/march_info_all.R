@@ -20,8 +20,6 @@ march_info_all <- function(focal_zip=66101){
   # Collate elements as data.frame
   tibble::tibble(
 
-    query_zipcode = focal_zip,
-
     query_date = Sys.Date(),
 
     event_titles =
