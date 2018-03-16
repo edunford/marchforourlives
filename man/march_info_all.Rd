@@ -15,7 +15,7 @@ Gather protest information on all March for Our Lives protests worldwide.
 }
 \examples{
 
-all_planned_protests <- extract_all()
+all_planned_protests <- march_info_all()
 all_planned_protests
 
 }

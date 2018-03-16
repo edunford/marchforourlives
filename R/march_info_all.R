@@ -10,7 +10,7 @@
 #'
 #' @examples
 #'
-#' all_planned_protests <- extract_all()
+#' all_planned_protests <- march_info_all()
 #' all_planned_protests
 #'
 march_info_all <- function(focal_zip=66101){
